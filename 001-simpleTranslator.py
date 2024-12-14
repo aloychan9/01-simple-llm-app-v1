@@ -11,7 +11,7 @@ _ = load_dotenv(find_dotenv())
 
 openai_api_key = os.environ["OPENAI_API_KEY"]
 
-llm = ChatOpenAI(model="gpt-3.5-turbo")
+llm = ChatOpenAI(model="gpt-4o-mini")
 
 parser = StrOutputParser()
 
